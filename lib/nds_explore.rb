@@ -10,7 +10,7 @@ end
 
 def print_first_directors_movie_titles
   row_index = 0
-  stephen_spielberg = nds[0][:movies]
+  stephen_spielberg = directors_database[0][:movies]
 
   while row_index < stephen_spielberg .length do
 
