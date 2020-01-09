@@ -9,6 +9,17 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
+  row_index = 0
+  stephen_spielberg = data[0][:movies]
+
+  while row_index < stephen_spielberg .length do
+
+  movie = stephen_spielberg[row_index][:title]
+  puts movie
+
+
+  row_index += 1
+  end
  
  
 end
